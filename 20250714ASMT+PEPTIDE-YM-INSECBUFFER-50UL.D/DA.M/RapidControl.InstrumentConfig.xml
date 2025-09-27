@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<InstrumentConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/RCNetConfigurationScheme.xsd">
+  <ConfiguredModules>
+    <ModuleConfig ImportSource="RapidControl.ModuleRegistration.xml" ImportID="Agilent.LC.1200Series.DAD" ConfigID="{a7fde64c-1448-459e-b01c-929f0283b913}">
+      <ConnectionInfo>
+        <Type>LAN_IP</Type>
+        <Address>192.168.254.11</Address>
+        <Shared>false</Shared>
+      </ConnectionInfo>
+      <ConfigData>
+        <Data>&lt;DadConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;DAD&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE64255194&lt;/SerialNumber&gt;&lt;ModuleType&gt;G1315D&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G1315D&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;B.06.32 [0004]&lt;/FirmwareRevision&gt;&lt;IsNormalizeSignalsEnabled&gt;false&lt;/IsNormalizeSignalsEnabled&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;/DadConfig&gt;</Data>
+      </ConfigData>
+      <AutoConfigInfo>&lt;AutoConfigSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;DoDetectedCombinedSystems&gt;true&lt;/DoDetectedCombinedSystems&gt;&lt;/AutoConfigSettings&gt;</AutoConfigInfo>
+    </ModuleConfig>
+    <ModuleConfig ImportSource="RapidControl.ModuleRegistration.xml" ImportID="Agilent.LC.1200Series.ColumnComp" ConfigID="{01bfd137-2877-45a7-a894-1c8bbab4499b}">
+      <ConnectionInfo>
+        <Type>LAN_IP</Type>
+        <Address>192.168.254.11</Address>
+        <Shared>false</Shared>
+      </ConnectionInfo>
+      <ConfigData>
+        <Data>&lt;ColumnCompConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;Column Comp.&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE63060948&lt;/SerialNumber&gt;&lt;ModuleType&gt;G1316A&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G1316A&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;A.06.32 [005]&lt;/FirmwareRevision&gt;&lt;IsColumnSwitchingValveInstalled&gt;true&lt;/IsColumnSwitchingValveInstalled&gt;&lt;ColumnValveVersion&gt;6Port2Positions&lt;/ColumnValveVersion&gt;&lt;/ColumnCompConfig&gt;</Data>
+      </ConfigData>
+      <AutoConfigInfo>&lt;AutoConfigSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;DoDetectedCombinedSystems&gt;true&lt;/DoDetectedCombinedSystems&gt;&lt;/AutoConfigSettings&gt;</AutoConfigInfo>
+    </ModuleConfig>
+    <ModuleConfig ImportSource="RapidControl.ModuleRegistration.xml" ImportID="Agilent.LC.1200Series.WellplateSampler" ConfigID="{5d9629dd-71d1-4d9e-b023-1228cc2f79fc}">
+      <ConnectionInfo>
+        <Type>LAN_IP</Type>
+        <Address>192.168.254.11</Address>
+        <Shared>false</Shared>
+      </ConnectionInfo>
+      <ConfigData>
+        <Data>&lt;SamplerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;HiP Sampler&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE64558426&lt;/SerialNumber&gt;&lt;ModuleType&gt;G1367B&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G1367B&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;A.06.33 [002]&lt;/FirmwareRevision&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;IsThermostatInstalled&gt;true&lt;/IsThermostatInstalled&gt;&lt;SyringeVolume&gt;100&lt;/SyringeVolume&gt;&lt;SeatCapillary&gt;2.3&lt;/SeatCapillary&gt;&lt;LoopCapillary&gt;200&lt;/LoopCapillary&gt;&lt;IsBackSeatInstalled&gt;false&lt;/IsBackSeatInstalled&gt;&lt;BackSeatCapillary&gt;0&lt;/BackSeatCapillary&gt;&lt;BackLoopCapillary&gt;0&lt;/BackLoopCapillary&gt;&lt;RinseValveInstalled&gt;false&lt;/RinseValveInstalled&gt;&lt;RinseValveEnabled&gt;false&lt;/RinseValveEnabled&gt;&lt;/SamplerConfig&gt;</Data>
+      </ConfigData>
+      <Settings>
+        <Setting ID="WLS1.GenericUI.Modal.Agilent.LCDrivers.RapidControl.Sampler.Actions.ControlUIItem">Heigth=798;Width=453;Left=733;Top=121</Setting>
+      </Settings>
+      <AutoConfigInfo>&lt;AutoConfigSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;DoDetectedCombinedSystems&gt;true&lt;/DoDetectedCombinedSystems&gt;&lt;/AutoConfigSettings&gt;</AutoConfigInfo>
+    </ModuleConfig>
+    <ModuleConfig ImportSource="RapidControl.ModuleRegistration.xml" ImportID="Agilent.LC.1200Series.BinPump" ConfigID="{95273488-3cd3-475e-83da-666701e55e40}">
+      <ConnectionInfo>
+        <Type>LAN_IP</Type>
+        <Address>192.168.254.11</Address>
+        <Shared>false</Shared>
+      </ConnectionInfo>
+      <ConfigData>
+        <Data>&lt;PumpConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;Binary Pump&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE63057019&lt;/SerialNumber&gt;&lt;ModuleType&gt;G1312A&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G1312A&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;A.06.32 [011]&lt;/FirmwareRevision&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;IsSealWashInstalled&gt;false&lt;/IsSealWashInstalled&gt;&lt;IsSolventSelectionValveInstalled&gt;true&lt;/IsSolventSelectionValveInstalled&gt;&lt;IsFlowSensorInstalled&gt;false&lt;/IsFlowSensorInstalled&gt;&lt;FlowSensorVersion&gt;FS1_20microl&lt;/FlowSensorVersion&gt;&lt;PressureUnit&gt;Unit_Bar&lt;/PressureUnit&gt;&lt;/PumpConfig&gt;</Data>
+      </ConfigData>
+      <AutoConfigInfo>&lt;AutoConfigSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;DoDetectedCombinedSystems&gt;true&lt;/DoDetectedCombinedSystems&gt;&lt;/AutoConfigSettings&gt;</AutoConfigInfo>
+    </ModuleConfig>
+    <ModuleConfig ImportSource="RapidControl.ModuleRegistration.xml" ImportID="Agilent.LC.1200Series.FractionCollector" ConfigID="{05b66ebf-e05e-42ba-b5ee-74c5e6cf7f8e}">
+      <ConnectionInfo>
+        <Type>LAN_IP</Type>
+        <Address>192.168.254.11</Address>
+        <SubAddress />
+        <Shared>false</Shared>
+        <Details>none</Details>
+      </ConnectionInfo>
+      <ConfigData>
+        <Data>&lt;FractionCollectorConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;Fraction Collector&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE60555120&lt;/SerialNumber&gt;&lt;ModuleType&gt;G1364C&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G1364C&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;A.06.36 [008]&lt;/FirmwareRevision&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;IsThermostatInstalled&gt;false&lt;/IsThermostatInstalled&gt;&lt;InnerCapillary&gt;0_25_MM&lt;/InnerCapillary&gt;&lt;NeedleType&gt;Analytical&lt;/NeedleType&gt;&lt;LinkedPump&gt;&lt;ModuleType /&gt;&lt;SerialNumber /&gt;&lt;/LinkedPump&gt;&lt;Treat384As4x96&gt;false&lt;/Treat384As4x96&gt;&lt;CollectionOrder&gt;Shortest_Path_By_Row&lt;/CollectionOrder&gt;&lt;CollectionMode&gt;Continous_Flow&lt;/CollectionMode&gt;&lt;NeedleMovement&gt;Above_Location&lt;/NeedleMovement&gt;&lt;AboveLocationDistance&gt;3.5&lt;/AboveLocationDistance&gt;&lt;TubeVolume&gt;0&lt;/TubeVolume&gt;&lt;TubeHeight&gt;0&lt;/TubeHeight&gt;&lt;TrayDefinition&gt;&lt;Type&gt;4Wells&lt;/Type&gt;&lt;Span&gt;3&lt;/Span&gt;&lt;UnitPosition&gt;&lt;UnitNumber&gt;1&lt;/UnitNumber&gt;&lt;UnitIdentifier&gt;96GreinerF&lt;/UnitIdentifier&gt;&lt;Rotation&gt;0&lt;/Rotation&gt;&lt;Align&gt;BackRight&lt;/Align&gt;&lt;XPos&gt;-10.981667&lt;/XPos&gt;&lt;YPos&gt;95.0583333&lt;/YPos&gt;&lt;XPosition&gt;2&lt;/XPosition&gt;&lt;YPosition&gt;0&lt;/YPosition&gt;&lt;XSize&gt;132&lt;/XSize&gt;&lt;YSize&gt;86&lt;/YSize&gt;&lt;IsRemoveable&gt;true&lt;/IsRemoveable&gt;&lt;/UnitPosition&gt;&lt;UnitPosition&gt;&lt;UnitNumber&gt;2&lt;/UnitNumber&gt;&lt;UnitIdentifier&gt;96GreinerF&lt;/UnitIdentifier&gt;&lt;Rotation&gt;0&lt;/Rotation&gt;&lt;Align&gt;FrontRight&lt;/Align&gt;&lt;XPos&gt;-10.976667&lt;/XPos&gt;&lt;YPos&gt;92.9983333&lt;/YPos&gt;&lt;XPosition&gt;2&lt;/XPosition&gt;&lt;YPosition&gt;90&lt;/YPosition&gt;&lt;XSize&gt;132&lt;/XSize&gt;&lt;YSize&gt;86&lt;/YSize&gt;&lt;IsRemoveable&gt;true&lt;/IsRemoveable&gt;&lt;/UnitPosition&gt;&lt;UnitPosition&gt;&lt;UnitNumber&gt;3&lt;/UnitNumber&gt;&lt;UnitIdentifier /&gt;&lt;Rotation&gt;0&lt;/Rotation&gt;&lt;Align&gt;BackLeft&lt;/Align&gt;&lt;XPos&gt;-9.8666667&lt;/XPos&gt;&lt;YPos&gt;95.025&lt;/YPos&gt;&lt;XPosition&gt;135&lt;/XPosition&gt;&lt;YPosition&gt;0&lt;/YPosition&gt;&lt;XSize&gt;132&lt;/XSize&gt;&lt;YSize&gt;86&lt;/YSize&gt;&lt;IsRemoveable&gt;true&lt;/IsRemoveable&gt;&lt;/UnitPosition&gt;&lt;UnitPosition&gt;&lt;UnitNumber&gt;4&lt;/UnitNumber&gt;&lt;UnitIdentifier /&gt;&lt;Rotation&gt;0&lt;/Rotation&gt;&lt;Align&gt;FrontLeft&lt;/Align&gt;&lt;XPos&gt;-9.8333333&lt;/XPos&gt;&lt;YPos&gt;93.0283333&lt;/YPos&gt;&lt;XPosition&gt;135&lt;/XPosition&gt;&lt;YPosition&gt;90&lt;/YPosition&gt;&lt;XSize&gt;132&lt;/XSize&gt;&lt;YSize&gt;86&lt;/YSize&gt;&lt;IsRemoveable&gt;true&lt;/IsRemoveable&gt;&lt;/UnitPosition&gt;&lt;/TrayDefinition&gt;&lt;TrayDefinition&gt;&lt;Type&gt;NoTray&lt;/Type&gt;&lt;Span&gt;1&lt;/Span&gt;&lt;/TrayDefinition&gt;&lt;TrayDefinition&gt;&lt;Type&gt;NoTray&lt;/Type&gt;&lt;Span&gt;1&lt;/Span&gt;&lt;/TrayDefinition&gt;&lt;PeakDetectors&gt;&lt;ModuleType&gt;G1315D&lt;/ModuleType&gt;&lt;SerialNumber&gt;DE64255194&lt;/SerialNumber&gt;&lt;DelayVolume&gt;85&lt;/DelayVolume&gt;&lt;/PeakDetectors&gt;&lt;ReservedLocations /&gt;&lt;PossiblePumpPartners&gt;&lt;ModuleType&gt;G1312A&lt;/ModuleType&gt;&lt;SerialNumber&gt;DE63057019&lt;/SerialNumber&gt;&lt;/PossiblePumpPartners&gt;&lt;/FractionCollectorConfig&gt;</Data>
+      </ConfigData>
+      <Settings>
+        <Setting ID="AFC1.ConfigDialog">Heigth=648;Width=911;Left=223;Top=161</Setting>
+        <Setting ID="AFC1.GenericUI.Modal.Agilent.LCDrivers.RapidControl.FractionCollector.Actions.ControlUIItem">Heigth=230;Width=667;Left=626;Top=405</Setting>
+        <Setting ID="AFC1.GenericUI.Modal.Agilent.LCDrivers.RapidControl.FractionCollector.Actions.EditWellplateTypesItem">Heigth=508;Width=1707;Left=179;Top=241</Setting>
+      </Settings>
+      <AutoConfigInfo>&lt;AutoConfigSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;DoDetectedCombinedSystems&gt;true&lt;/DoDetectedCombinedSystems&gt;&lt;/AutoConfigSettings&gt;</AutoConfigInfo>
+    </ModuleConfig>
+  </ConfiguredModules>
+  <Settings>
+    <Setting ID="CombinedMethodDialog">Heigth=893;Width=1570;Left=96;Top=99;SplitterDistancePercentage=86.3912515188335;SplitterCollapsed=0;Binary Pump|Flow=1;Binary Pump|Solvent Ratio A=1;Binary Pump|Solvent Ratio B=1;Binary Pump|High Pressure Limit=1;Column Comp.|Left Temperature=1;Column Comp.|Right Temperature=1;DAD|Signal A=1;DAD|Signal B=1;DAD|Signal C=1;DAD|Signal D=1;DAD|Signal E=1;DAD|Signal F=1;DAD|Signal G=1;DAD|Signal H=1</Setting>
+  </Settings>
+  <InstrumentType>LC</InstrumentType>
+</InstrumentConfig>
